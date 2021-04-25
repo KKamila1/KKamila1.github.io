@@ -1,0 +1,20 @@
+.site-header {
+    background: url('../assets/img/start.jpeg');
+    height: 100vh;
+    position: relative;
+
+    &__h1{
+        position: absolute;
+        bottom: 40%;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__button {
+        position: absolute;
+        bottom: 15%;
+        margin: 0 auto;
+        left:0;
+        right: 0;
+    }
+}

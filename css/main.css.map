@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAcA,EAAG;EACC,SAAS,EAAE,IAAY;EAbvB,oCAAyC;IAY7C,EAAG;MAGK,SAAS,EAAE,IAAY;MACvB,KAAK,EAAE,IAAI;EATf,qCAAyC;IAK7C,EAAG;MAQK,SAAS,EAAE,IAAY;MACvB,KAAK,EAAE,KAAK",
+"sources": ["../scss/02-tools/_mixins.scss"],
 "names": [],
 "file": "main.css"
 }

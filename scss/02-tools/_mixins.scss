@@ -1,0 +1,26 @@
+@mixin medium {
+
+    @media screen and (min-width: #{$bp-md}) {
+        @content;
+    }
+}
+
+@mixin large {
+
+    @media screen and (min-width: #{$bp-lg}) {
+        @content;
+    }
+}
+
+h1 {
+    font-size: 3*$font-base;
+    @include medium {
+        font-size: 4*$font-base;
+        color: aqua;
+    }
+
+    @include large() {
+        font-size: 5*$font-base;
+        color: green;
+    }
+}

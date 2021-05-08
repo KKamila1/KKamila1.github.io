@@ -52,7 +52,8 @@ body {
   font-family: 'Italianno', cursive; }
 
 p {
-  font-size: 2.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
   line-height: 2.8rem;
   padding: 10px;
   margin-top: 15px; }
@@ -196,5 +197,23 @@ p {
     margin: 0 auto;
     left: 0;
     right: 0; }
+
+.site-section {
+  min-height: 70vh;
+  padding-top: 3rem; }
+  .site-section--bg-color {
+    background-color: #132601; }
+
+.text-color-white {
+  color: white; }
+
+.text-align-center {
+  text-align: center; }
+
+.text-align-right {
+  text-align: right; }
+
+.text-align-justify {
+  text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */

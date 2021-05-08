@@ -1,5 +1,4 @@
 .nav{
-
     &__item {
         font-size: 3.2rem;
         @include medium {
@@ -20,5 +19,4 @@
             background-color: $color-red;
         }
     }
-
 }
